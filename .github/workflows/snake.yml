@@ -5,6 +5,9 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -19,9 +22,7 @@ jobs:
           github_user_name: bahadjdz
           outputs: |
             output/github-snake.svg?color_snake=#6DB3F2&color_dots=#0e75b6,#2ea44f,#f9f9f9
-            output/github-snake-dark.svg?color_snake=#6DB3F2&color_dots=#0e75b6,#2ea44f,#FFFFFF&color_dot_6=#6DB3F2
-          color_snake: "#6DB3F2"
-          color_dots: "#0e75b6,#2ea44f,#f9f9f9"
+            output/github-snake-dark.svg?color_snake=#6DB3F2&color_dots=#0e75b6,#2ea44f,#FFFFFF
 
       - name: Push Snake SVG to output branch
         uses: peaceiris/actions-gh-pages@v3
