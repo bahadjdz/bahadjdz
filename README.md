@@ -38,7 +38,7 @@
 ## 🧩 Developer Card
 
 <div align="center">
-  <img src="assets/m3-card.svg" alt="Material 3 developer card" width="560"/>
+  <img src="assets/m3-card.svg" alt="Material 3 developer card" width="620"/>
 </div>
 
 <br/>

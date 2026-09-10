@@ -1,93 +1,144 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" font-family="Roboto, 'Google Sans', 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family="Roboto, 'Google Sans', 'Segoe UI', Helvetica, Arial, sans-serif">
   <defs>
-    <linearGradient id="m3primary" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#D0BCFF"/>
-      <stop offset="1" stop-color="#6750A4"/>
+    <linearGradient id="pBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16141A"/>
+      <stop offset="1" stop-color="#0F0D12"/>
     </linearGradient>
-    <linearGradient id="m3tertiary" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#EFB8C8"/>
-      <stop offset="1" stop-color="#7D5260"/>
+    <radialGradient id="pOrbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D0BCFF" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#D0BCFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#D0BCFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pOrbB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#EFB8C8" stop-opacity="0.5"/>
+      <stop offset="0.55" stop-color="#EFB8C8" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#EFB8C8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pOrbC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#CCC2DC" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#CCC2DC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pCard" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#26232B"/>
+      <stop offset="0.5" stop-color="#201D24"/>
+      <stop offset="1" stop-color="#1A181E"/>
     </linearGradient>
-    <linearGradient id="m3secondary" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#CCC2DC"/>
-      <stop offset="1" stop-color="#625B71"/>
+    <linearGradient id="pEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D0BCFF" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#49454F" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#EFB8C8" stop-opacity="0.45"/>
     </linearGradient>
-    <linearGradient id="m3bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#D0BCFF"/>
+    <linearGradient id="pAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADDFF"/>
+      <stop offset="0.5" stop-color="#D0BCFF"/>
       <stop offset="1" stop-color="#EFB8C8"/>
     </linearGradient>
-    <clipPath id="heroClip"><rect x="60" y="52" width="880" height="216" rx="48"/></clipPath>
+    <linearGradient id="pBar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7D5260"/>
+      <stop offset="0.55" stop-color="#D0BCFF"/>
+      <stop offset="1" stop-color="#EADDFF"/>
+    </linearGradient>
+    <linearGradient id="pSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pChip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#312E38"/>
+      <stop offset="1" stop-color="#252229"/>
+    </linearGradient>
+    <clipPath id="pCardClip"><rect x="56" y="52" width="1088" height="236" rx="56"/></clipPath>
   </defs>
 
-  <rect width="1000" height="320" fill="#141218"/>
+  <rect width="1200" height="340" fill="url(#pBase)"/>
 
-  <!-- expressive tonal shapes -->
-  <g clip-path="url(#heroClip)">
-    <circle cx="120" cy="80" r="90" fill="url(#m3secondary)" opacity="0.20">
-      <animateTransform attributeName="transform" type="translate" values="0 0;24 -14;0 0" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="900" cy="250" r="110" fill="url(#m3tertiary)" opacity="0.16">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-30 10;0 0" dur="11s" repeatCount="indefinite"/>
-    </circle>
-    <rect x="720" y="60" width="150" height="150" rx="60" fill="url(#m3primary)" opacity="0.14">
-      <animateTransform attributeName="transform" type="rotate" from="0 795 135" to="360 795 135" dur="40s" repeatCount="indefinite"/>
-    </rect>
+  <g clip-path="url(#pCardClip)">
+    <ellipse cx="180" cy="90" rx="260" ry="200" fill="url(#pOrbA)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;38 -20;0 0" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1010" cy="250" rx="300" ry="230" fill="url(#pOrbB)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-44 16;0 0" dur="23s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="620" cy="40" rx="240" ry="150" fill="url(#pOrbC)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;26 12;0 0" dur="27s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
-  <!-- main surface container (M3 elevated card, radius 48) -->
-  <rect x="60" y="52" width="880" height="216" rx="48" fill="#1D1B20"/>
-  <rect x="60" y="52" width="880" height="216" rx="48" fill="none" stroke="#49454F" stroke-width="1.5"/>
+  <rect x="56" y="76" width="1088" height="236" rx="56" fill="#000000" opacity="0.34"/>
+  <rect x="56" y="68" width="1088" height="236" rx="56" fill="#000000" opacity="0.22"/>
+  <rect x="56" y="62" width="1088" height="236" rx="56" fill="#000000" opacity="0.14"/>
 
-  <!-- avatar: M3 tonal circle + person glyph -->
-  <circle cx="150" cy="130" r="46" fill="#4F378B"/>
-  <circle cx="150" cy="118" r="15" fill="#EADDFF"/>
-  <path d="M 124 158 Q 150 134 176 158 Z" fill="#EADDFF"/>
-  <circle cx="150" cy="130" r="46" fill="none" stroke="#D0BCFF" stroke-width="2" opacity="0.7">
-    <animate attributeName="r" values="46;49;46" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.25;0.7" dur="4s" repeatCount="indefinite"/>
+  <rect x="56" y="52" width="1088" height="236" rx="56" fill="url(#pCard)"/>
+  <rect x="56.75" y="52.75" width="1086.5" height="234.5" rx="55.25" fill="none" stroke="url(#pEdge)" stroke-width="1.5"/>
+  <rect x="96" y="52.5" width="1008" height="1.5" rx="0.75" fill="#FFFFFF" opacity="0.07"/>
+
+  <rect x="104" y="104" width="112" height="112" rx="34" fill="#2B2930"/>
+  <rect x="104.75" y="104.75" width="110.5" height="110.5" rx="33.25" fill="none" stroke="url(#pAccent)" stroke-width="1.5" opacity="0.85"/>
+  <text x="160" y="180" text-anchor="middle" font-size="58" font-weight="700" fill="url(#pAccent)">B</text>
+  <circle cx="160" cy="160" r="68" fill="none" stroke="url(#pAccent)" stroke-width="1.25" stroke-dasharray="18 10" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 160 160" to="360 160 160" dur="34s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- headline -->
-  <text x="222" y="118" font-size="54" font-weight="700" fill="#E6E0E9" letter-spacing="1">BAHA</text>
-  <text x="224" y="148" font-size="19" fill="#CAC4D0">Material 3 Expressive &#183; Python Developer &#183; Algeria</text>
+  <text x="256" y="150" font-size="62" font-weight="700" fill="#E6E0E9" letter-spacing="2.5">BAHA</text>
+  <g fill="#CAC4D0" font-size="19">
+    <text x="258" y="186">Material 3 Expressive</text>
+    <circle cx="443" cy="180" r="3" fill="#7D5260"/>
+    <text x="461" y="186">Python Developer</text>
+    <circle cx="626" cy="180" r="3" fill="#7D5260"/>
+    <text x="644" y="186">Algeria</text>
+  </g>
 
-  <!-- M3 assist chips (height 40, radius 20, outline) -->
+  <rect x="258" y="204" width="176" height="40" rx="20" fill="url(#pChip)" stroke="#49454F"/>
+  <circle cx="282" cy="224" r="5" fill="#D0BCFF">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="282" cy="224" r="5" fill="#D0BCFF" opacity="0.35">
+    <animate attributeName="r" values="5;11;5" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0;0.35" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="300" y="230" font-size="15" fill="#EADDFF">Open to work</text>
+
+  <g font-size="15" fill="#D0BCFF">
+    <rect x="450" y="204" width="128" height="40" rx="20" fill="url(#pChip)" stroke="#49454F"/>
+    <text x="514" y="230" text-anchor="middle">Automation</text>
+    <rect x="590" y="204" width="82" height="40" rx="20" fill="url(#pChip)" stroke="#49454F"/>
+    <text x="631" y="230" text-anchor="middle">APIs</text>
+    <rect x="684" y="204" width="108" height="40" rx="20" fill="url(#pChip)" stroke="#49454F"/>
+    <text x="738" y="230" text-anchor="middle">Backend</text>
+  </g>
+
   <g>
-    <rect x="224" y="170" width="132" height="40" rx="20" fill="#2B2930" stroke="#49454F"/>
-    <text x="290" y="196" text-anchor="middle" font-size="15" fill="#D0BCFF">Automation</text>
-
-    <rect x="366" y="170" width="86" height="40" rx="20" fill="#2B2930" stroke="#49454F"/>
-    <text x="409" y="196" text-anchor="middle" font-size="15" fill="#D0BCFF">APIs</text>
-
-    <rect x="462" y="170" width="112" height="40" rx="20" fill="#2B2930" stroke="#49454F"/>
-    <text x="518" y="196" text-anchor="middle" font-size="15" fill="#D0BCFF">Backend</text>
-
-    <rect x="584" y="170" width="140" height="40" rx="20" fill="#4F378B">
-      <animate attributeName="width" values="140;152;140" dur="3.4s" repeatCount="indefinite"/>
+    <rect x="880" y="180" width="12" height="20" rx="6" fill="url(#pBar)">
+      <animate attributeName="height" values="20;46;20" dur="1.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="180;154;180" dur="1.9s" repeatCount="indefinite"/>
     </rect>
-    <text x="654" y="196" text-anchor="middle" font-size="15" fill="#EADDFF">Open to work</text>
+    <rect x="904" y="168" width="12" height="32" rx="6" fill="url(#pBar)">
+      <animate attributeName="height" values="32;58;32" dur="1.9s" begin="0.14s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="168;142;168" dur="1.9s" begin="0.14s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="928" y="176" width="12" height="24" rx="6" fill="url(#pBar)">
+      <animate attributeName="height" values="24;52;24" dur="1.9s" begin="0.28s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="176;148;176" dur="1.9s" begin="0.28s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="952" y="164" width="12" height="36" rx="6" fill="url(#pBar)">
+      <animate attributeName="height" values="36;62;36" dur="1.9s" begin="0.42s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="164;138;164" dur="1.9s" begin="0.42s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="976" y="172" width="12" height="28" rx="6" fill="url(#pBar)">
+      <animate attributeName="height" values="28;50;28" dur="1.9s" begin="0.56s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="172;150;172" dur="1.9s" begin="0.56s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!-- expressive loading dots -->
-  <g>
-    <circle cx="806" cy="86" r="9" fill="#D0BCFF">
-      <animate attributeName="cy" values="86;74;86" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="840" cy="86" r="9" fill="#EFB8C8">
-      <animate attributeName="cy" values="86;74;86" dur="1.6s" begin="0.16s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.6s" begin="0.16s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="874" cy="86" r="9" fill="#CCC2DC">
-      <animate attributeName="cy" values="86;74;86" dur="1.6s" begin="0.32s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.6s" begin="0.32s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- M3 linear progress indicator -->
-  <text x="224" y="228" font-size="13" fill="#CAC4D0" letter-spacing="1">SHIPPING</text>
-  <rect x="310" y="220" width="560" height="8" rx="4" fill="#36343B"/>
-  <rect x="310" y="220" width="120" height="8" rx="4" fill="url(#m3bar)">
-    <animate attributeName="width" values="40;420;40" dur="6s" repeatCount="indefinite"/>
+  <rect x="880" y="212" width="216" height="6" rx="3" fill="#3A3740"/>
+  <rect x="880" y="212" width="216" height="6" rx="3" fill="url(#pBar)" opacity="0.9">
+    <animate attributeName="width" values="60;216;60" dur="7s" repeatCount="indefinite"/>
   </rect>
+  <rect x="880" y="212" width="46" height="6" rx="3" fill="url(#pSheen)">
+    <animate attributeName="x" values="880;1050;880" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="1104" cy="88" r="3" fill="#EFB8C8" opacity="0.85"/>
+  <circle cx="1120" cy="88" r="3" fill="#D0BCFF" opacity="0.6"/>
+  <circle cx="96" cy="256" r="3" fill="#CCC2DC" opacity="0.5"/>
 </svg>

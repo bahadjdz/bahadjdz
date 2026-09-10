@@ -1,52 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="200" viewBox="0 0 620 200" font-family="Roboto, 'Google Sans', 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="220" viewBox="0 0 700 220" font-family="Roboto, 'Google Sans', 'Segoe UI', Helvetica, Arial, sans-serif">
   <defs>
-    <linearGradient id="s1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#D0BCFF"/>
-      <stop offset="1" stop-color="#4F378B"/>
+    <linearGradient id="shBase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17151C"/>
+      <stop offset="1" stop-color="#100E14"/>
     </linearGradient>
-    <linearGradient id="s2" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="shA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADDFF"/>
+      <stop offset="0.55" stop-color="#D0BCFF"/>
+      <stop offset="1" stop-color="#6750A4"/>
+    </linearGradient>
+    <linearGradient id="shB" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#EFB8C8"/>
+      <stop offset="0.6" stop-color="#B07A8C"/>
       <stop offset="1" stop-color="#7D5260"/>
     </linearGradient>
-    <linearGradient id="s3" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="shC" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#CCC2DC"/>
+      <stop offset="0.6" stop-color="#8A8098"/>
       <stop offset="1" stop-color="#625B71"/>
+    </linearGradient>
+    <linearGradient id="shEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="shLoad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EADDFF"/>
+      <stop offset="1" stop-color="#7D5260"/>
     </linearGradient>
   </defs>
 
-  <rect width="620" height="200" fill="#141218"/>
+  <rect width="700" height="220" rx="28" fill="url(#shBase)"/>
+  <rect x="0.75" y="0.75" width="698.5" height="218.5" rx="27.25" fill="none" stroke="#49454F" stroke-width="1.5" opacity="0.55"/>
+  <rect x="60" y="0.5" width="580" height="1.5" rx="0.75" fill="#FFFFFF" opacity="0.06"/>
 
-  <!-- morphing squircle: M3 expressive shape morphing via rx -->
-  <rect x="56" y="52" width="96" height="96" fill="url(#s1)">
-    <animate attributeName="rx" values="28;48;28" dur="6s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" from="0 104 100" to="360 104 100" dur="30s" repeatCount="indefinite"/>
+  <!-- morphing squircle: M3 shape-morph motion + slow rotation -->
+  <rect x="86" y="76" width="104" height="104" fill="url(#shA)">
+    <animate attributeName="rx" values="30;52;30" dur="7s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 138 128" to="360 138 128" dur="38s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="86" y="76" width="104" height="104" rx="30" fill="none" stroke="url(#shEdge)" stroke-width="1.5" opacity="0.7">
+    <animate attributeName="rx" values="30;52;30" dur="7s" repeatCount="indefinite"/>
   </rect>
 
   <!-- pulsing circle with elevation ring -->
-  <circle cx="248" cy="100" r="42" fill="url(#s2)">
-    <animate attributeName="r" values="42;48;42" dur="4.5s" repeatCount="indefinite"/>
+  <circle cx="292" cy="120" r="44" fill="url(#shB)">
+    <animate attributeName="r" values="44;49;44" dur="5.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="248" cy="100" r="42" fill="none" stroke="#EFB8C8" stroke-width="2" opacity="0.6">
-    <animate attributeName="r" values="48;66;48" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0;0.6" dur="4.5s" repeatCount="indefinite"/>
+  <circle cx="292" cy="120" r="44" fill="none" stroke="#EFB8C8" stroke-width="1.5">
+    <animate attributeName="r" values="50;72;50" dur="5.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="5.2s" repeatCount="indefinite"/>
   </circle>
+  <circle cx="276" cy="104" r="9" fill="#FFFFFF" opacity="0.28"/>
 
   <!-- rotating rounded triangle -->
-  <path d="M 392 148 L 428 78 L 464 148 Z" fill="url(#s3)" stroke-linejoin="round" stroke="#CCC2DC" stroke-width="8">
-    <animateTransform attributeName="transform" type="rotate" from="0 428 118" to="360 428 118" dur="18s" repeatCount="indefinite"/>
+  <path d="M 428 172 L 468 90 L 508 172 Z" fill="url(#shC)" stroke="url(#shEdge)" stroke-width="10" stroke-linejoin="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 468 140" to="360 468 140" dur="26s" repeatCount="indefinite"/>
   </path>
 
-  <!-- film-roll loader (M3 expressive) -->
-  <rect x="524" y="62" width="56" height="76" rx="16" fill="#2B2930" stroke="#49454F"/>
-  <rect x="536" y="76" width="32" height="8" rx="4" fill="#D0BCFF">
-    <animate attributeName="x" values="536;548;536" dur="2.4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="536" y="96" width="32" height="8" rx="4" fill="#EFB8C8">
-    <animate attributeName="x" values="548;536;548" dur="2.4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="536" y="116" width="32" height="8" rx="4" fill="#CCC2DC">
-    <animate attributeName="x" values="542;552;542" dur="2.4s" repeatCount="indefinite"/>
-  </rect>
+  <!-- expressive loader with staggered bars -->
+  <rect x="574" y="72" width="88" height="96" rx="26" fill="#2B2930" stroke="#49454F"/>
+  <g fill="url(#shLoad)">
+    <rect x="590" y="104" width="10" height="26" rx="5">
+      <animate attributeName="height" values="26;44;26" dur="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="104;86;104" dur="1.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="606" y="94" width="10" height="36" rx="5">
+      <animate attributeName="height" values="36;52;36" dur="1.7s" begin="0.16s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="94;78;94" dur="1.7s" begin="0.16s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="622" y="100" width="10" height="30" rx="5">
+      <animate attributeName="height" values="30;48;30" dur="1.7s" begin="0.32s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="100;82;100" dur="1.7s" begin="0.32s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="638" y="108" width="10" height="22" rx="5">
+      <animate attributeName="height" values="22;40;22" dur="1.7s" begin="0.48s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="108;90;108" dur="1.7s" begin="0.48s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <text x="310" y="186" text-anchor="middle" font-size="14" letter-spacing="3" fill="#CAC4D0">MATERIAL 3 EXPRESSIVE</text>
+  <text x="350" y="205" text-anchor="middle" font-size="13" letter-spacing="4.5" fill="#938F99">MATERIAL 3 EXPRESSIVE</text>
+  <circle cx="646" cy="34" r="3" fill="#D0BCFF" opacity="0.7"/>
+  <circle cx="662" cy="34" r="3" fill="#EFB8C8" opacity="0.55"/>
 </svg>

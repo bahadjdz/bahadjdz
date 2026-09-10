@@ -1,75 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" viewBox="0 0 560 320" font-family="Roboto, 'Google Sans', 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" font-family="Roboto, 'Google Sans', 'Segoe UI', Helvetica, Arial, sans-serif">
   <defs>
-    <linearGradient id="cardAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#D0BCFF"/>
+    <linearGradient id="cCard" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#26232B"/>
+      <stop offset="0.55" stop-color="#201D24"/>
+      <stop offset="1" stop-color="#191720"/>
+    </linearGradient>
+    <linearGradient id="cEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D0BCFF" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#49454F" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#EFB8C8" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="cAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADDFF"/>
+      <stop offset="0.5" stop-color="#D0BCFF"/>
       <stop offset="1" stop-color="#EFB8C8"/>
     </linearGradient>
+    <linearGradient id="cProgress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EFB8C8"/>
+      <stop offset="0.6" stop-color="#D0BCFF"/>
+      <stop offset="1" stop-color="#EADDFF"/>
+    </linearGradient>
+    <linearGradient id="cSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cChip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#312E38"/>
+      <stop offset="1" stop-color="#252229"/>
+    </linearGradient>
+    <linearGradient id="cSpark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7D5260"/>
+      <stop offset="1" stop-color="#D0BCFF"/>
+    </linearGradient>
+    <radialGradient id="cGlowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#D0BCFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#D0BCFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cCardClip"><rect x="24" y="24" width="592" height="312" rx="36"/></clipPath>
   </defs>
 
-  <rect width="560" height="320" fill="#141218"/>
+  <rect width="640" height="360" fill="#121016"/>
 
-  <!-- elevated M3 card -->
-  <rect x="12" y="12" width="536" height="296" rx="28" fill="#211F26"/>
-  <rect x="12" y="12" width="536" height="296" rx="28" fill="none" stroke="#49454F" stroke-width="1.5"/>
-
-  <!-- avatar -->
-  <circle cx="84" cy="76" r="38" fill="#4F378B"/>
-  <circle cx="84" cy="68" r="12" fill="#EADDFF"/>
-  <path d="M 63 100 Q 84 82 105 100 Z" fill="#EADDFF"/>
-
-  <text x="140" y="66" font-size="30" font-weight="700" fill="#E6E0E9">BAHA</text>
-  <text x="141" y="90" font-size="14" fill="#CAC4D0">@bahadjdz &#183; Python Developer</text>
-
-  <!-- M3 chips -->
-  <g font-size="13" fill="#D0BCFF">
-    <rect x="140" y="104" width="76" height="32" rx="16" fill="#2B2930" stroke="#49454F"/>
-    <text x="178" y="125" text-anchor="middle">Python</text>
-    <rect x="224" y="104" width="104" height="32" rx="16" fill="#2B2930" stroke="#49454F"/>
-    <text x="276" y="125" text-anchor="middle">Automation</text>
-    <rect x="336" y="104" width="118" height="32" rx="16" fill="#2B2930" stroke="#49454F"/>
-    <text x="395" y="125" text-anchor="middle">Open Source</text>
+  <g clip-path="url(#cCardClip)">
+    <ellipse cx="120" cy="70" rx="200" ry="150" fill="url(#cGlowA)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;26 -14;0 0" dur="21s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
-  <!-- M3 switch (on) -->
-  <rect x="446" y="104" width="60" height="34" rx="17" fill="#D0BCFF">
-    <animate attributeName="fill" values="#D0BCFF;#EFB8C8;#D0BCFF" dur="5s" repeatCount="indefinite"/>
+  <rect x="24" y="42" width="592" height="312" rx="36" fill="#000000" opacity="0.30"/>
+  <rect x="24" y="34" width="592" height="312" rx="36" fill="#000000" opacity="0.18"/>
+  <rect x="24" y="24" width="592" height="312" rx="36" fill="url(#cCard)"/>
+  <rect x="24.75" y="24.75" width="590.5" height="310.5" rx="35.25" fill="none" stroke="url(#cEdge)" stroke-width="1.5"/>
+  <rect x="64" y="24.5" width="512" height="1.5" rx="0.75" fill="#FFFFFF" opacity="0.07"/>
+
+  <!-- avatar plate -->
+  <rect x="56" y="56" width="96" height="96" rx="30" fill="#2B2930"/>
+  <rect x="56.75" y="56.75" width="94.5" height="94.5" rx="29.25" fill="none" stroke="url(#cAccent)" stroke-width="1.5" opacity="0.9"/>
+  <text x="104" y="120" text-anchor="middle" font-size="46" font-weight="700" fill="url(#cAccent)">B</text>
+
+  <!-- identity -->
+  <text x="176" y="98" font-size="36" font-weight="700" fill="#E6E0E9" letter-spacing="1.4">BAHA</text>
+  <circle cx="292" cy="86" r="11" fill="#D0BCFF"/>
+  <path d="M 287 86 L 291 90 L 298 82" fill="none" stroke="#381E72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="177" y="124" font-size="15" fill="#CAC4D0">@bahadjdz &#183; Python Developer</text>
+
+  <!-- M3 switch -->
+  <rect x="516" y="62" width="60" height="34" rx="17" fill="#D0BCFF">
+    <animate attributeName="fill" values="#D0BCFF;#EFB8C8;#D0BCFF" dur="6s" repeatCount="indefinite"/>
   </rect>
-  <circle cy="121" r="13" fill="#381E72">
-    <animate attributeName="cx" values="480;466;480" dur="5s" repeatCount="indefinite"/>
+  <circle cy="79" r="13" fill="#381E72">
+    <animate attributeName="cx" values="550;536;550" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <text x="446" y="156" font-size="12" fill="#CAC4D0">available</text>
+  <text x="516" y="112" font-size="11" fill="#938F99">available</text>
 
-  <!-- M3 linear progress with rounded caps -->
-  <text x="40" y="184" font-size="13" fill="#CAC4D0" letter-spacing="1">XP</text>
-  <rect x="76" y="175" width="360" height="10" rx="5" fill="#49454F"/>
-  <rect x="76" y="175" width="220" height="10" rx="5" fill="url(#cardAccent)">
-    <animate attributeName="width" values="40;300;300" dur="5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="446" y="184" font-size="13" fill="#E6E0E9">LVL 24</text>
+  <rect x="56" y="152" width="528" height="1" rx="0.5" fill="#FFFFFF" opacity="0.07"/>
 
-  <!-- M3 segmented row / stat tiles -->
-  <g>
-    <rect x="40" y="210" width="150" height="66" rx="20" fill="#2B2930"/>
-    <text x="60" y="238" font-size="19" font-weight="700" fill="#D0BCFF">2+</text>
-    <text x="60" y="258" font-size="12" fill="#CAC4D0">years coding</text>
+  <!-- metric row -->
+  <text x="56" y="190" font-size="30" font-weight="700" fill="#D0BCFF">24</text>
+  <text x="56" y="210" font-size="11" fill="#938F99" letter-spacing="1.5">LEVEL</text>
+  <rect x="222" y="168" width="1" height="44" rx="0.5" fill="#FFFFFF" opacity="0.07"/>
+  <text x="250" y="190" font-size="30" font-weight="700" fill="#EFB8C8">2+</text>
+  <text x="250" y="210" font-size="11" fill="#938F99" letter-spacing="1.5">YEARS CODING</text>
+  <rect x="402" y="168" width="1" height="44" rx="0.5" fill="#FFFFFF" opacity="0.07"/>
+  <text x="430" y="190" font-size="30" font-weight="700" fill="#CCC2DC">10+</text>
+  <text x="430" y="210" font-size="11" fill="#938F99" letter-spacing="1.5">PROJECTS</text>
 
-    <rect x="204" y="210" width="150" height="66" rx="20" fill="#2B2930"/>
-    <text x="224" y="238" font-size="19" font-weight="700" fill="#EFB8C8">10+</text>
-    <text x="224" y="258" font-size="12" fill="#CAC4D0">projects</text>
+  <!-- sparkline with draw-on animation -->
+  <polyline points="470,206 492,196 506,200 522,182 540,188 558,168 578,174" fill="none" stroke="url(#cSpark)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" values="200;0;0" dur="5s" repeatCount="indefinite"/>
+  </polyline>
+  <circle cx="578" cy="174" r="4" fill="#EADDFF">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
 
-    <rect x="368" y="210" width="152" height="66" rx="20" fill="#2B2930"/>
-    <text x="388" y="238" font-size="19" font-weight="700" fill="#CCC2DC">99</text>
-    <text x="388" y="258" font-size="12" fill="#CAC4D0">coffee / day</text>
+  <!-- chips -->
+  <g font-size="14" fill="#D0BCFF">
+    <rect x="56" y="232" width="84" height="36" rx="18" fill="url(#cChip)" stroke="#49454F"/>
+    <text x="98" y="256" text-anchor="middle">Python</text>
+    <rect x="150" y="232" width="120" height="36" rx="18" fill="url(#cChip)" stroke="#49454F"/>
+    <text x="210" y="256" text-anchor="middle">Automation</text>
+    <rect x="280" y="232" width="126" height="36" rx="18" fill="url(#cChip)" stroke="#49454F"/>
+    <text x="343" y="256" text-anchor="middle">Material 3</text>
   </g>
 
-  <!-- M3 FAB (56, radius 16) with pulse halo -->
-  <circle cx="470" cy="60" r="30" fill="#4F378B" opacity="0.35">
-    <animate attributeName="r" values="30;38;30" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.35;0.06;0.35" dur="3s" repeatCount="indefinite"/>
+  <!-- progress with sheen -->
+  <text x="56" y="303" font-size="11" fill="#938F99" letter-spacing="1.5">SHIPPING</text>
+  <rect x="132" y="294" width="348" height="8" rx="4" fill="#3A3740"/>
+  <rect x="132" y="294" width="240" height="8" rx="4" fill="url(#cProgress)">
+    <animate attributeName="width" values="60;300;300" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="132" y="294" width="60" height="8" rx="4" fill="url(#cSheen)">
+    <animate attributeName="x" values="132;380;132" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- FAB with concentric pulse -->
+  <circle cx="556" cy="284" r="30" fill="#4F378B" opacity="0.28">
+    <animate attributeName="r" values="30;44;30" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.28;0.03;0.28" dur="3.4s" repeatCount="indefinite"/>
   </circle>
-  <rect x="442" y="32" width="56" height="56" rx="16" fill="#4F378B"/>
+  <rect x="528" y="256" width="56" height="56" rx="18" fill="#4F378B"/>
   <g stroke="#EADDFF" stroke-width="3" stroke-linecap="round">
-    <line x1="470" y1="48" x2="470" y2="72"/>
-    <line x1="458" y1="60" x2="482" y2="60"/>
+    <line x1="556" y1="274" x2="556" y2="294"/>
+    <line x1="546" y1="284" x2="566" y2="284"/>
   </g>
 </svg>
