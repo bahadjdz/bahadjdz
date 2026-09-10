@@ -50,6 +50,12 @@
 
 <br/>
 
+<div align="center">
+  <img src="assets/plum-banner.png" alt="Ukiyo-e banner: the plum estate at Kameido" width="95%"/>
+</div>
+
+<br/>
+
 ## ⛩️ Anime Corner
 
 > *"Training arcs are just long refactor sprints with better animation."*
@@ -82,6 +88,12 @@
 
 <br/>
 
+<div align="center">
+  <img src="assets/wave-banner.png" alt="Ukiyo-e banner: The Great Wave off Kanagawa" width="95%"/>
+</div>
+
+<br/>
+
 ## 📦 Featured Work
 
 | Project | Description | Stack |
@@ -103,32 +115,6 @@
 
 <br/>
 
-## 📊 Stats
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bahadjdz&theme=radical" width="46%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bahadjdz&theme=radical&utcOffset=1" width="46%"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=bahadjdz&hide_border=true&date_format=j%2Fn%2FY&background=1D1B20&ring=D0BCFF&fire=EFB8C8&currStreakLabel=D0BCFF&sideLabels=CAC4D0&currStreakNum=E6E0E9&sideNums=E6E0E9" width="62%"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bahadjdz&theme=radical" width="95%"/>
-</div>
-
-<br/>
-
-## 📈 Language Breakdown
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bahadjdz&theme=radical" width="46%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bahadjdz&theme=radical" width="46%"/>
-</div>
-
-<br/>
-
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -138,6 +124,12 @@
 ---
 
 <div align="center">
+
+<div align="center">
+  <img src="assets/rain-banner.png" alt="Ukiyo-e banner: evening shower over Shin-Ohashi bridge" width="95%"/>
+</div>
+
+<br/>
 
 ## 📬 Connect
 
@@ -159,7 +151,7 @@
 | Asset | Source | License |
 | :--- | :--- | :--- |
 | Hero background photo | *After Sunset at the Torii Gate, Miyajima* — Ajay Suresh, via Wikimedia Commons | CC BY 2.0 |
-| Banner ukiyo-e print | *Red Fuji* (Thirty-six Views of Mount Fuji) — Katsushika Hokusai, via Wikimedia Commons | Public Domain |
+| Ukiyo-e banners | *Red Fuji* & *The Great Wave off Kanagawa* — Hokusai; *Sudden Shower over Shin-Ōhashi* & *Plum Estate, Kameido* — Hiroshige, via Wikimedia Commons | Public Domain |
 | Card & banner icons | [Iconify](https://iconify.design) — Hugeicons, Font Awesome Free, Simple Icons, Material Design Icons | MIT · CC BY 4.0 · CC0 · Apache-2.0 |
 | Vector scenes & animation | Hand-authored SVG in this repository | Same as this repository |
 
