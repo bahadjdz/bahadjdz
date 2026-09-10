@@ -165,8 +165,6 @@
 
 <br/>
 
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6750A4,50:4F378B,100:1D1B20&height=120&section=footer"/>
 
 </div>
