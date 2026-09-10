@@ -1,42 +1,45 @@
 <div align="center">
 
-# <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=600&color=00E5FF&center=true&vCenter=true&width=640&lines=%F0%9F%8E%AE+PLAYER+1%3A+BAHA+%7C+bahadjdz;%E2%9A%99%EF%B8%8F+CLASS%3A+PYTHON+DEVELOPER;%F0%9F%A4%96+MISSION%3A+AUTOMATE+EVERYTHING;%F0%9F%92%BC+GUILD%3A+OPEN+TO+WORK;%E2%96%B6+PRESS+START"/>
+# <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&duration=3000&pause=600&color=D0BCFF&center=true&vCenter=true&width=640&lines=BAHA+%7C+bahadjdz;Python+Developer;Automation+%26+Backend;Material+3+Expressive+Enthusiast"/>
 
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=bahadjdz&label=PLAYERS+JOINED&color=ff2975&style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/WANTED-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GUILD%20OPEN-2ea44f?style=for-the-badge&logo=statuspage&logoColor=white"/>
-  <img src="https://img.shields.io/github/followers/bahadjdz?style=for-the-badge&logo=github&color=00E5FF"/>
+  <img src="assets/m3-hero.svg" alt="Material 3 hero" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00e5ff,50:ff2975,100:8c1eff&height=280&section=header&text=GRAND%20THEFT%20CODE&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=BAHA%20EDITION&descAlignY=62&descSize=18"/>
-</div>
-
-<div align="center">
-  <img src="assets/gta-banner.svg" alt="Neon loading screen" width="100%"/>
+  <img src="https://komarev.com/ghpvc/?username=bahadjdz&label=PROFILE+VIEWS&color=6750A4&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-4F378B?style=for-the-badge&logo=statuspage&logoColor=EADDFF"/>
+  <img src="https://img.shields.io/badge/MATERIAL%203-EXPRESSIVE-D0BCFF?style=for-the-badge&logo=materialdesign&logoColor=381E72"/>
+  <img src="https://img.shields.io/github/followers/bahadjdz?style=for-the-badge&logo=github&color=6750A4&labelColor=1D1B20"/>
 </div>
 
 ---
 
-## 📜 Character Lore <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="40"/>
+## ✨ About
 
-<div align="center">
-  <img src="assets/player-card.svg" alt="Player card" width="520"/>
-</div>
+<img align="right" alt="Material 3 expressive shapes" width="420" src="assets/m3-shapes.svg"/>
 
 > *"Turning ideas into clean, working software — one commit at a time."*
 
 - 🔭 Currently exploring **Python automation & backend engineering**
 - 🌱 Deep-diving into **software architecture & scalable design**
+- 🎨 Passionate about **Material 3 / Material 3 Expressive design systems**
 - 💼 Open to freelance and collaborative opportunities
 - 🧠 Ask me about **Python, automation, APIs, and problem solving**
 - 🎯 2026 Goal: **Ship real products that solve real problems**
 - ⚡ Fun fact: **I turn coffee into code & bugs into features**
+
+<br clear="right"/>
+
+## 🧩 Developer Card
+
+<div align="center">
+  <img src="assets/m3-card.svg" alt="Material 3 developer card" width="560"/>
+</div>
 
 <br/>
 
@@ -47,89 +50,81 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-6750A4?style=for-the-badge&logo=python&logoColor=EADDFF"/>
+  <img src="https://img.shields.io/badge/Git-49454F?style=for-the-badge&logo=git&logoColor=EADDFF"/>
+  <img src="https://img.shields.io/badge/GitHub-1D1B20?style=for-the-badge&logo=github&logoColor=D0BCFF"/>
+  <img src="https://img.shields.io/badge/Bash-4F378B?style=for-the-badge&logo=gnubash&logoColor=EADDFF"/>
+  <img src="https://img.shields.io/badge/Linux-625B71?style=for-the-badge&logo=linux&logoColor=EDE7F6"/>
+  <img src="https://img.shields.io/badge/HTML5-7D5260?style=for-the-badge&logo=html5&logoColor=FFE4EC"/>
+  <img src="https://img.shields.io/badge/CSS3-49454F?style=for-the-badge&logo=css3&logoColor=D0BCFF"/>
 </p>
 
 <br/>
 
-## 🎯 Mission Log <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/coin.gif" width="34"/>
+## 📦 Featured Work
 
-| 🎯 MISSION | 📝 BRIEFING | 🛠️ LOADOUT |
-| :---: | :--- | :--- |
-| 🔢 Quantum-Credit-Master 🔒 | Python-based virtual card generator using the Luhn algorithm for validation, BIN analysis and batch generation. | 🐍 Python |
-| 🤖 boottraderrr1 🔒 | Python automation project. | 🐍 Python |
-| 💈 Barberly 🔒 | A stylish barber service website. | 🌐 HTML |
-| 🎨 [m3e-canvas](https://github.com/bahadjdz/m3e-canvas) | Sketch Material 3 Expressive screens in the browser — contributed AI-draft continuation features (upstream PR #413). | ⚛️ TypeScript |
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| 🔢 Quantum-Credit-Master 🔒 | Python-based virtual card generator using the Luhn algorithm for validation, BIN analysis and batch generation. | Python |
+| 🤖 boottraderrr1 🔒 | Python automation project. | Python |
+| 💈 Barberly 🔒 | A stylish barber service website. | HTML |
+| 🎨 [m3e-canvas](https://github.com/bahadjdz/m3e-canvas) | Sketch Material 3 Expressive screens in the browser — contributed AI-draft continuation features (upstream PR #413). | TypeScript |
 
-> 🔒 = locked mission (private repo) — walkthrough available on request.
+> 🔒 = private repository — walkthrough available on request.
 
 <br/>
 
 ## 🧊 3D Contribution City
 
 <div align="center">
-  <img src="assets/3d-cube.svg" alt="3D cube" width="140"/>
-  <br/>
   <img src="https://raw.githubusercontent.com/bahadjdz/bahadjdz/main/profile-3d-contrib/profile-night-view.svg" alt="3D contribution graph" width="95%"/>
 </div>
 
 <br/>
 
-## 📊 Player Stats <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Medal.gif" width="34"/>
+## 📊 Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bahadjdz&show_icons=true&count_private=true&include_all_commits=true&theme=radical&hide_border=true&rank_icon=github" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bahadjdz&layout=donut&theme=radical&hide_border=true&langs_count=8" width="40%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=bahadjdz&theme=radical" width="46%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bahadjdz&theme=radical&utcOffset=1" width="46%"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=bahadjdz&hide_border=true&date_format=j%2Fn%2FY&background=0D1117&fire=FF2975&ring=00E5FF&currStreakLabel=00E5FF&sideLabels=8BE9FD&currStreakNum=FFFFFF&sideNums=FFFFFF" width="62%"/>
+  <img src="https://streak-stats.demolab.com/?user=bahadjdz&hide_border=true&date_format=j%2Fn%2FY&background=1D1B20&ring=D0BCFF&fire=EFB8C8&currStreakLabel=D0BCFF&sideLabels=CAC4D0&currStreakNum=E6E0E9&sideNums=E6E0E9" width="62%"/>
 </div>
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bahadjdz&theme=radical" width="95%"/>
-  <br/>
+</div>
+
+<br/>
+
+## 📈 Language Breakdown
+
+<div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bahadjdz&theme=radical" width="46%"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bahadjdz&theme=radical" width="46%"/>
 </div>
 
 <br/>
 
-## 🐍 Snake Mini-Game
+## 🐍 Contribution Snake
 
 <div align="center">
-  <table><tr><td align="center">
-    <img src="https://raw.githubusercontent.com/bahadjdz/bahadjdz/output/github-snake.svg" alt="Snake eating contributions" width="520"/>
-  </td><td align="center">
-    <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Mario_Gameplay.gif" alt="Mario gameplay" width="240"/>
-  </td></tr></table>
-</div>
-
-<br/>
-
-## 📈 Mission Timeline <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Rocket.gif" width="38"/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bahadjdz&hide_border=true&area=true&bg_color=0D1117&color=00E5FF&line=FF2975&point=FFFFFF"/>
+  <img src="https://raw.githubusercontent.com/bahadjdz/bahadjdz/output/github-snake.svg" alt="Snake eating contributions" width="90%"/>
 </div>
 
 ---
 
 <div align="center">
 
-## 📡 Join My Lobby
+## 📬 Connect
 
 <a href="https://github.com/bahadjdz">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-1D1B20?style=for-the-badge&logo=github&logoColor=D0BCFF"/>
 </a>
 <a href="https://www.linkedin.com/search/results/all/?keywords=bahadjdz">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-4F378B?style=for-the-badge&logo=linkedin&logoColor=EADDFF"/>
 </a>
 
 <br/>
@@ -138,6 +133,6 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8c1eff,50:ff2975,100:00e5ff&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6750A4,50:4F378B,100:1D1B20&height=120&section=footer"/>
 
 </div>

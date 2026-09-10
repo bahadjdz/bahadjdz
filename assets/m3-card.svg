@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" viewBox="0 0 560 320" font-family="Roboto, 'Google Sans', 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="cardAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D0BCFF"/>
+      <stop offset="1" stop-color="#EFB8C8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="560" height="320" fill="#141218"/>
+
+  <!-- elevated M3 card -->
+  <rect x="12" y="12" width="536" height="296" rx="28" fill="#211F26"/>
+  <rect x="12" y="12" width="536" height="296" rx="28" fill="none" stroke="#49454F" stroke-width="1.5"/>
+
+  <!-- avatar -->
+  <circle cx="84" cy="76" r="38" fill="#4F378B"/>
+  <circle cx="84" cy="68" r="12" fill="#EADDFF"/>
+  <path d="M 63 100 Q 84 82 105 100 Z" fill="#EADDFF"/>
+
+  <text x="140" y="66" font-size="30" font-weight="700" fill="#E6E0E9">BAHA</text>
+  <text x="141" y="90" font-size="14" fill="#CAC4D0">@bahadjdz &#183; Python Developer</text>
+
+  <!-- M3 chips -->
+  <g font-size="13" fill="#D0BCFF">
+    <rect x="140" y="104" width="76" height="32" rx="16" fill="#2B2930" stroke="#49454F"/>
+    <text x="178" y="125" text-anchor="middle">Python</text>
+    <rect x="224" y="104" width="104" height="32" rx="16" fill="#2B2930" stroke="#49454F"/>
+    <text x="276" y="125" text-anchor="middle">Automation</text>
+    <rect x="336" y="104" width="118" height="32" rx="16" fill="#2B2930" stroke="#49454F"/>
+    <text x="395" y="125" text-anchor="middle">Open Source</text>
+  </g>
+
+  <!-- M3 switch (on) -->
+  <rect x="446" y="104" width="60" height="34" rx="17" fill="#D0BCFF">
+    <animate attributeName="fill" values="#D0BCFF;#EFB8C8;#D0BCFF" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cy="121" r="13" fill="#381E72">
+    <animate attributeName="cx" values="480;466;480" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="446" y="156" font-size="12" fill="#CAC4D0">available</text>
+
+  <!-- M3 linear progress with rounded caps -->
+  <text x="40" y="184" font-size="13" fill="#CAC4D0" letter-spacing="1">XP</text>
+  <rect x="76" y="175" width="360" height="10" rx="5" fill="#49454F"/>
+  <rect x="76" y="175" width="220" height="10" rx="5" fill="url(#cardAccent)">
+    <animate attributeName="width" values="40;300;300" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="446" y="184" font-size="13" fill="#E6E0E9">LVL 24</text>
+
+  <!-- M3 segmented row / stat tiles -->
+  <g>
+    <rect x="40" y="210" width="150" height="66" rx="20" fill="#2B2930"/>
+    <text x="60" y="238" font-size="19" font-weight="700" fill="#D0BCFF">2+</text>
+    <text x="60" y="258" font-size="12" fill="#CAC4D0">years coding</text>
+
+    <rect x="204" y="210" width="150" height="66" rx="20" fill="#2B2930"/>
+    <text x="224" y="238" font-size="19" font-weight="700" fill="#EFB8C8">10+</text>
+    <text x="224" y="258" font-size="12" fill="#CAC4D0">projects</text>
+
+    <rect x="368" y="210" width="152" height="66" rx="20" fill="#2B2930"/>
+    <text x="388" y="238" font-size="19" font-weight="700" fill="#CCC2DC">99</text>
+    <text x="388" y="258" font-size="12" fill="#CAC4D0">coffee / day</text>
+  </g>
+
+  <!-- M3 FAB (56, radius 16) with pulse halo -->
+  <circle cx="470" cy="60" r="30" fill="#4F378B" opacity="0.35">
+    <animate attributeName="r" values="30;38;30" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.06;0.35" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="442" y="32" width="56" height="56" rx="16" fill="#4F378B"/>
+  <g stroke="#EADDFF" stroke-width="3" stroke-linecap="round">
+    <line x1="470" y1="48" x2="470" y2="72"/>
+    <line x1="458" y1="60" x2="482" y2="60"/>
+  </g>
+</svg>
