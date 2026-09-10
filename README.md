@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=bahadjdz&label=PLAYERS+JOINDED&color=ff2975&style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=bahadjdz&label=PLAYERS+JOINED&color=ff2975&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/WANTED-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/GUILD%20OPEN-2ea44f?style=for-the-badge&logo=statuspage&logoColor=white"/>
   <img src="https://img.shields.io/github/followers/bahadjdz?style=for-the-badge&logo=github&color=00E5FF"/>
