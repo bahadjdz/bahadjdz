@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" font-family="'Segoe UI', Roboto, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif">
+  <defs>
+    <linearGradient id="cPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B1430"/>
+      <stop offset="0.55" stop-color="#15101F"/>
+      <stop offset="1" stop-color="#0F0B1A"/>
+    </linearGradient>
+    <linearGradient id="cEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB7D5" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#7B5BD6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFB7D5" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="cFrame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A2044"/>
+      <stop offset="1" stop-color="#191230"/>
+    </linearGradient>
+    <linearGradient id="cHair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4B3766"/>
+      <stop offset="1" stop-color="#2A1D40"/>
+    </linearGradient>
+    <linearGradient id="cHoodie" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#544271"/>
+      <stop offset="1" stop-color="#2B2044"/>
+    </linearGradient>
+    <linearGradient id="cName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#FFD1E3"/>
+      <stop offset="1" stop-color="#FFB7D5"/>
+    </linearGradient>
+    <linearGradient id="cXp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE7F1"/><stop offset="1" stop-color="#FF8FB8"/>
+    </linearGradient>
+    <linearGradient id="cFocus" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D8C7FF"/><stop offset="1" stop-color="#7B5BD6"/>
+    </linearGradient>
+    <linearGradient id="cCreate" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B9F5EA"/><stop offset="1" stop-color="#3FB8A0"/>
+    </linearGradient>
+    <linearGradient id="cSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cChip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <pattern id="cTone" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#FFD1E3" opacity="0.16"/>
+    </pattern>
+    <clipPath id="cAvatar"><rect x="48" y="56" width="204" height="204" rx="30"/></clipPath>
+    <clipPath id="cPanelClip"><rect x="0" y="0" width="640" height="400" rx="30"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cPanelClip)">
+    <rect width="640" height="400" fill="url(#cPanel)"/>
+    <rect width="640" height="400" fill="url(#cTone)"/>
+    <rect x="62" y="0" width="520" height="1.5" rx="0.75" fill="#FFFFFF" opacity="0.07"/>
+
+    <!-- ambient orbs -->
+    <circle cx="586" cy="52" r="70" fill="#FFB7D5" opacity="0.10">
+      <animate attributeName="cy" values="52;70;52" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="88" cy="344" r="56" fill="#7B5BD6" opacity="0.16">
+      <animate attributeName="cy" values="344;326;344" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ============ avatar ============ -->
+    <rect x="48" y="56" width="204" height="204" rx="30" fill="url(#cFrame)" stroke="url(#cEdge)" stroke-width="1.6"/>
+    <g clip-path="url(#cAvatar)">
+      <rect x="48" y="56" width="204" height="204" fill="#241A3C"/>
+      <rect x="48" y="56" width="204" height="204" fill="url(#cTone)"/>
+      <circle cx="150" cy="150" r="92" fill="#FFB7D5" opacity="0.10"/>
+      <!-- back hair -->
+      <path d="M 150 66 C 104 66 78 104 78 152 C 78 194 86 224 92 246 L 208 246 C 214 224 222 194 222 152 C 222 104 196 66 150 66 Z" fill="url(#cHair)"/>
+      <!-- shoulders / hoodie -->
+      <path d="M 66 260 C 84 226 114 210 150 210 C 186 210 216 226 234 260 Z" fill="url(#cHoodie)"/>
+      <path d="M 132 212 L 150 236 L 168 212 Z" fill="#EFC9B4" opacity="0.9"/>
+      <!-- neck -->
+      <rect x="137" y="196" width="26" height="22" rx="8" fill="#E7BFA8"/>
+      <!-- face -->
+      <ellipse cx="150" cy="152" rx="49" ry="55" fill="#F7D9C4"/>
+      <ellipse cx="150" cy="162" rx="42" ry="44" fill="#FBE3D2"/>
+      <!-- fringe -->
+      <path d="M 101 148 C 103 108 122 84 150 84 C 178 84 197 108 199 148 C 190 124 176 112 164 120 C 156 104 142 104 134 120 C 122 112 110 124 101 148 Z" fill="url(#cHair)"/>
+      <path d="M 112 96 C 128 82 172 82 190 98" stroke="#6B5188" stroke-width="2.4" fill="none" opacity="0.7"/>
+      <!-- side strands -->
+      <path d="M 100 140 C 92 176 94 206 102 224 C 108 202 108 172 112 148 Z" fill="url(#cHair)"/>
+      <path d="M 200 140 C 208 176 206 206 198 224 C 192 202 192 172 188 148 Z" fill="url(#cHair)"/>
+      <!-- brows -->
+      <path d="M 120 142 C 126 137 136 137 141 141" stroke="#3B2A52" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <path d="M 159 141 C 164 137 174 137 180 142" stroke="#3B2A52" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <!-- eyes -->
+      <ellipse cx="131" cy="161" rx="7.6" ry="10" fill="#241C36"/>
+      <ellipse cx="169" cy="161" rx="7.6" ry="10" fill="#241C36"/>
+      <circle cx="133.6" cy="156" r="2.9" fill="#FFFFFF" opacity="0.95"/>
+      <circle cx="171.6" cy="156" r="2.9" fill="#FFFFFF" opacity="0.95"/>
+      <circle cx="129" cy="166" r="1.5" fill="#FFB7D5" opacity="0.9"/>
+      <circle cx="167" cy="166" r="1.5" fill="#FFB7D5" opacity="0.9"/>
+      <!-- blink -->
+      <ellipse cx="131" cy="161" rx="7.6" ry="10" fill="#F7D9C4">
+        <animate attributeName="ry" values="0;0;10;10;0;0" keyTimes="0;0.42;0.46;0.62;0.66;1" dur="5.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="169" cy="161" rx="7.6" ry="10" fill="#F7D9C4">
+        <animate attributeName="ry" values="0;0;10;10;0;0" keyTimes="0;0.42;0.46;0.62;0.66;1" dur="5.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- blush -->
+      <ellipse cx="114" cy="180" rx="9.5" ry="4.2" fill="#F79AB0" opacity="0.5"/>
+      <ellipse cx="186" cy="180" rx="9.5" ry="4.2" fill="#F79AB0" opacity="0.5"/>
+      <!-- mouth -->
+      <path d="M 143 184 q 7 7 14 0" stroke="#B35F6E" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      <!-- aura ring + petals -->
+      <circle cx="150" cy="156" r="94" fill="none" stroke="#FFB7D5" stroke-width="1.4" stroke-dasharray="6 10" opacity="0.55">
+        <animateTransform attributeName="transform" type="rotate" from="0 150 156" to="360 150 156" dur="26s" repeatCount="indefinite"/>
+      </circle>
+      <g fill="#FFB7D5">
+        <path d="M 0 0 C 5 -8 16 -8 21 0 C 16 8 5 8 0 0 Z" opacity="0.85">
+          <animateMotion dur="11s" repeatCount="indefinite" path="M 240 96 Q 210 140 180 190 Q 150 236 108 250"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" additive="sum" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0 0 C 4 -6 13 -6 17 0 C 13 6 4 6 0 0 Z" opacity="0.7">
+          <animateMotion dur="14s" begin="2s" repeatCount="indefinite" path="M 72 70 Q 104 120 132 176 Q 158 224 206 244"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.8s" additive="sum" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- kira -->
+      <path d="M 212 118 L 215 126 L 223 129 L 215 132 L 212 140 L 209 132 L 201 129 L 209 126 Z" fill="#FFFFFF" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;0.1;0.9" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- ============ identity ============ -->
+    <text x="280" y="74" font-size="13" fill="#FFD1E3" opacity="0.9" letter-spacing="6">バハ</text>
+    <text x="281" y="115" font-size="44" font-weight="700" fill="#0C0718" opacity="0.5" letter-spacing="1.5">BAHA</text>
+    <text x="280" y="114" font-size="44" font-weight="700" fill="url(#cName)" letter-spacing="1.5">BAHA</text>
+    <rect x="436" y="80" width="86" height="26" rx="13" fill="url(#cChip)" stroke="#FFB7D5" stroke-opacity="0.5"/>
+    <text x="450" y="98" font-size="13" font-weight="700" fill="#FFD1E3">LV. 99</text>
+    <text x="280" y="134" font-size="11.5" fill="#D8C7FF" opacity="0.85" letter-spacing="3.4">PYTHON &#183; AUTOMATION &#183; ALGERIA</text>
+    <rect x="280" y="146" width="336" height="1" fill="#FFFFFF" opacity="0.12"/>
+
+    <!-- ============ stat bars ============ -->
+    <text x="280" y="172" font-size="11.5" fill="#FFD1E3" letter-spacing="2.6">経験値 &#183; XP</text>
+    <rect x="280" y="180" width="336" height="9" rx="4.5" fill="#2A2044"/>
+    <rect x="280" y="180" width="0" height="9" rx="4.5" fill="url(#cXp)">
+      <animate attributeName="width" values="0;309;309" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="280" y="180" width="336" height="9" rx="4.5" fill="url(#cSheen)">
+      <animate attributeName="x" values="280;616" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="172" font-size="11" fill="#FFFFFF" opacity="0.7" text-anchor="end">92%</text>
+
+    <text x="280" y="212" font-size="11.5" fill="#D8C7FF" letter-spacing="2.6">集中 &#183; FOCUS</text>
+    <rect x="280" y="220" width="336" height="9" rx="4.5" fill="#2A2044"/>
+    <rect x="280" y="220" width="0" height="9" rx="4.5" fill="url(#cFocus)">
+      <animate attributeName="width" values="0;296;296" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="212" font-size="11" fill="#FFFFFF" opacity="0.7" text-anchor="end">88%</text>
+
+    <text x="280" y="252" font-size="11.5" fill="#B9F5EA" letter-spacing="2.6">創造力 &#183; CREATIVITY</text>
+    <rect x="280" y="260" width="336" height="9" rx="4.5" fill="#2A2044"/>
+    <rect x="280" y="260" width="0" height="9" rx="4.5" fill="url(#cCreate)">
+      <animate attributeName="width" values="0;319;319" dur="4.5s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="252" font-size="11" fill="#FFFFFF" opacity="0.7" text-anchor="end">95%</text>
+
+    <!-- ============ element chips with real icons ============ -->
+    <g>
+      <rect x="280" y="292" width="106" height="32" rx="16" fill="url(#cChip)" stroke="#FFB7D5" stroke-opacity="0.35"/>
+      <g transform="translate(292,301) scale(0.583)" fill="#FFB7D5">
+        <path d="M14 12.5a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z"/>
+        <path d="M12 18.088q-.172.28-.377.562C10.309 20.447 8.496 21.504 7 21.5l-.302-2.075l-2.078.356c-.466-1.413.029-3.514 1.342-5.312C3.935 13.766 2.442 12.397 2 11l1.86-.931l-.966-1.866c1.187-.883 3.526-.99 5.615-.299c0-2.404.827-4.534 2.03-5.404L12 4l1.46-1.5c1.204.87 2.042 3 2.03 5.404c2.09-.69 4.429-.584 5.616.299l-.965 1.866L22 11c-.442 1.396-1.935 2.765-3.962 3.47c1.313 1.797 1.808 3.898 1.342 5.311l-2.078-.356L17 21.5c-1.496.004-3.309-1.053-4.623-2.85a8 8 0 0 1-.377-.562Z"/>
+      </g>
+      <text x="312" y="313" font-size="11.5" fill="#FFE7F1" letter-spacing="1.4">SAKURA</text>
+
+      <rect x="395" y="292" width="106" height="32" rx="16" fill="url(#cChip)" stroke="#7B5BD6" stroke-opacity="0.5"/>
+      <g transform="translate(406,302) scale(0.0274)" fill="#D8C7FF">
+        <path d="M0 80c0 26.5 21.5 48 48 48h16v64h64v-64h96v64h64v-64h96v64h64v-64h16c26.5 0 48-21.5 48-48V13.4C512 6 506 0 498.6 0c-1.7 0-3.4.3-5 1l-49 19.6C425.7 28.1 405.5 32 385.2 32H126.8c-20.4 0-40.5-3.9-59.4-11.4L18.4 1c-1.6-.6-3.3-1-5-1C6 0 0 6 0 13.4zm64 208v192c0 17.7 14.3 32 32 32s32-14.3 32-32V288h256v192c0 17.7 14.3 32 32 32s32-14.3 32-32V288h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32z"/>
+      </g>
+      <text x="426" y="313" font-size="11.5" fill="#EDE4FF" letter-spacing="1.4">TORII</text>
+
+      <rect x="510" y="292" width="106" height="32" rx="16" fill="url(#cChip)" stroke="#B9F5EA" stroke-opacity="0.4"/>
+      <g transform="translate(521,301) scale(0.583)" fill="#B9F5EA">
+        <path d="M7.75 13c-.01-.35.15-.69.42-.92c.75.16 1.45.47 2.08.92c0 .68-.56 1.24-1.25 1.24S7.76 13.69 7.75 13m6 0c.63-.44 1.33-.75 2.08-.91c.27.23.43.57.42.91c0 .7-.56 1.26-1.25 1.26s-1.25-.56-1.25-1.26M12 9c-2.77-.04-5.5.65-7.93 2L4 12c0 1.23.29 2.44.84 3.54a47.6 47.6 0 0 1 14.32 0c.55-1.1.84-2.31.84-3.54l-.07-1A15.85 15.85 0 0 0 12 9m0-7a10 10 0 0 1 10 10a10 10 0 0 1-10 10A10 10 0 0 1 2 12A10 10 0 0 1 12 2"/>
+      </g>
+      <text x="541" y="313" font-size="11.5" fill="#DDFAF4" letter-spacing="1.4">NINJA</text>
+    </g>
+
+    <!-- ============ quest line ============ -->
+    <rect x="48" y="328" width="568" height="44" rx="14" fill="url(#cChip)" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="66" y="348" font-size="10.5" fill="#FFB7D5" letter-spacing="3">QUEST</text>
+    <text x="66" y="364" font-size="12.5" fill="#FFFFFF" opacity="0.92">Automate what everyone does manually.</text>
+    <rect x="48" y="328" width="120" height="3" rx="1.5" fill="url(#cXp)">
+      <animate attributeName="x" values="48;496;48" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="9s" repeatCount="indefinite"/>
+    </rect>
+    <g transform="translate(556,340) scale(0.583)" fill="#FFB7D5" opacity="0.9">
+      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12s12-5.373 12-12S18.627 0 12 0m.016 22.762H12c-5.95-.009-10.765-4.84-10.756-10.789c.009-5.95 4.839-10.766 10.789-10.757c5.943.009 10.756 4.829 10.756 10.773c0 5.95-4.823 10.773-10.773 10.773m9.475-10.857a5.562 5.562 0 0 1-9.142 3.214a6.33 6.33 0 0 0 3.251-2.062l.104.169c.339.584.568 1.226.676 1.893a6.3 6.3 0 0 0-.349-2.656a6.328 6.328 0 0 0-8.94-8.63a5.563 5.563 0 0 1 7.418 6.256a6.33 6.33 0 0 0-3.425-1.762l.093-.175a5.5 5.5 0 0 1 1.304-1.533a6.3 6.3 0 0 0-2.122 1.636a6.327 6.327 0 0 0-3.016 12.044a5.564 5.564 0 0 1 1.713-9.562a6.33 6.33 0 0 0 .185 3.818h-.186a5.5 5.5 0 0 1-1.98-.36a6.3 6.3 0 0 0 2.471 1.025a6.33 6.33 0 0 0 8.513 2.758a6.32 6.32 0 0 0 3.432-6.073m-11.018-1.443a5.58 5.58 0 0 1 3.6.998a5.6 5.6 0 0 1-2.667 2.618a5.57 5.57 0 0 1-.933-3.616"/>
+    </g>
+
+    <!-- panel edge -->
+    <rect x="0.8" y="0.8" width="638.4" height="398.4" rx="29.2" fill="none" stroke="url(#cEdge)" stroke-width="1.6"/>
+  </g>
+</svg>

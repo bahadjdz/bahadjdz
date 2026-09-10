@@ -1,11 +1,11 @@
 <div align="center">
 
-# <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&duration=3000&pause=600&color=D0BCFF&center=true&vCenter=true&width=640&lines=BAHA+%7C+bahadjdz;Python+Developer;Automation+%26+Backend;Material+3+Expressive+Enthusiast"/>
+# <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=30&duration=3000&pause=600&color=D0BCFF&center=true&vCenter=true&width=640&lines=BAHA+%7C+bahadjdz;Python+Developer;Automation+%26+Backend;Anime+Fan+%7C+Material+3"/>
 
 </div>
 
 <div align="center">
-  <img src="assets/m3-hero.svg" alt="Material 3 hero" width="100%"/>
+  <img src="assets/anime-hero.png" alt="Anime twilight scene with torii gate and the BAHA title" width="100%"/>
 </div>
 
 <br/>
@@ -14,6 +14,7 @@
   <img src="https://komarev.com/ghpvc/?username=bahadjdz&label=PROFILE+VIEWS&color=6750A4&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-4F378B?style=for-the-badge&logo=statuspage&logoColor=EADDFF"/>
   <img src="https://img.shields.io/badge/MATERIAL%203-EXPRESSIVE-D0BCFF?style=for-the-badge&logo=materialdesign&logoColor=381E72"/>
+  <img src="https://img.shields.io/badge/ANIME%20FAN-FFB7D5?style=for-the-badge&logo=crunchyroll&logoColor=1D1B20"/>
   <img src="https://img.shields.io/github/followers/bahadjdz?style=for-the-badge&logo=github&color=6750A4&labelColor=1D1B20"/>
 </div>
 
@@ -35,11 +36,31 @@
 
 <br clear="right"/>
 
+<div align="center">
+  <img src="assets/anime-banner.png" alt="Ukiyo-e banner: chase your dreams" width="95%"/>
+</div>
+
+<br/>
+
 ## 🧩 Developer Card
 
 <div align="center">
-  <img src="assets/m3-card.svg" alt="Material 3 developer card" width="620"/>
+  <img src="assets/anime-card.svg" alt="Anime character card: BAHA, level 99, animated stats and element chips" width="620"/>
 </div>
+
+<br/>
+
+## ⛩️ Anime Corner
+
+> *"Training arcs are just long refactor sprints with better animation."*
+
+|  |  |
+| :--- | :--- |
+| 🍥 **All-time favourites** | One Piece · Naruto · Demon Slayer · Attack on Titan · Jujutsu Kaisen · Frieren |
+| 🔥 **On repeat right now** | Solo Leveling · Chainsaw Man · Blue Lock |
+| 💭 **Favourite trope** | The underdog who trains in silence and returns unstoppable |
+| ⚔️ **Spirit animal** | The quiet strategist — wins with preparation, not noise |
+| 🎧 **Coding soundtrack** | Anime openings, city pop & lo-fi |
 
 <br/>
 
@@ -132,6 +153,19 @@
 > ⭐ **"Code is poetry written in logic."**
 
 <br/>
+
+## 📜 Artwork & Credits
+
+| Asset | Source | License |
+| :--- | :--- | :--- |
+| Hero background photo | *After Sunset at the Torii Gate, Miyajima* — Ajay Suresh, via Wikimedia Commons | CC BY 2.0 |
+| Banner ukiyo-e print | *Red Fuji* (Thirty-six Views of Mount Fuji) — Katsushika Hokusai, via Wikimedia Commons | Public Domain |
+| Card & banner icons | [Iconify](https://iconify.design) — Hugeicons, Font Awesome Free, Simple Icons, Material Design Icons | MIT · CC BY 4.0 · CC0 · Apache-2.0 |
+| Vector scenes & animation | Hand-authored SVG in this repository | Same as this repository |
+
+<br/>
+
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6750A4,50:4F378B,100:1D1B20&height=120&section=footer"/>
 

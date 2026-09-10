@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" font-family="Roboto, 'Google Sans', 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="aSsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#09051C"/>
+      <stop offset="0.34" stop-color="#241452"/>
+      <stop offset="0.62" stop-color="#6B2E6B"/>
+      <stop offset="0.83" stop-color="#C9527A"/>
+      <stop offset="1" stop-color="#F0A868"/>
+    </linearGradient>
+    <radialGradient id="aSun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF7D6"/>
+      <stop offset="0.45" stop-color="#FFD37A"/>
+      <stop offset="0.78" stop-color="#FF9A5C"/>
+      <stop offset="1" stop-color="#FF7A59" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="aSunHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD37A" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#FF8A5B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF7A59" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="aTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#FFD1E3"/>
+      <stop offset="1" stop-color="#FFB7D5"/>
+    </linearGradient>
+    <linearGradient id="aPetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE7F1"/>
+      <stop offset="1" stop-color="#FFA9CB"/>
+    </linearGradient>
+    <linearGradient id="aWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A1E4A" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#120A22"/>
+    </linearGradient>
+    <linearGradient id="aPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="aRim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFD1E3" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFD1E3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="aVigTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05030F" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#05030F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="aVigLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05030F" stop-opacity="0.88"/>
+      <stop offset="0.55" stop-color="#05030F" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#05030F" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="aSunClip"><circle cx="880" cy="238" r="148"/></clipPath>
+    <clipPath id="aFrame"><rect x="0" y="0" width="1280" height="360" rx="0"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#aFrame)">
+    <rect width="1280" height="360" fill="url(#aSsky)"/>
+
+    <!-- stars -->
+    <g fill="#FFFFFF">
+      <circle cx="120" cy="46" r="1.6" opacity="0.9"><animate attributeName="opacity" values="0.9;0.15;0.9" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="248" cy="88" r="1.2" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="410" cy="38" r="1.8" opacity="0.85"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="72" r="1.1" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="34" r="1.5" opacity="0.75"><animate attributeName="opacity" values="0.75;0.15;0.75" dur="4.6s" repeatCount="indefinite"/></circle>
+      <circle cx="1010" cy="58" r="1.4" opacity="0.8"><animate attributeName="opacity" values="0.8;0.12;0.8" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1178" cy="96" r="1.3" opacity="0.65"><animate attributeName="opacity" values="0.65;0.1;0.65" dur="4.3s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- sun halo + sun with drifting slats -->
+    <circle cx="880" cy="238" r="250" fill="url(#aSunHalo)"/>
+    <circle cx="880" cy="238" r="148" fill="url(#aSun)"/>
+    <g clip-path="url(#aSunClip)" fill="#2A1240" opacity="0.34">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 26" dur="6.5s" repeatCount="indefinite"/>
+        <rect x="700" y="182" width="360" height="5"/>
+        <rect x="700" y="200" width="360" height="6"/>
+        <rect x="700" y="222" width="360" height="8"/>
+        <rect x="700" y="248" width="360" height="9"/>
+        <rect x="700" y="278" width="360" height="11"/>
+        <rect x="700" y="312" width="360" height="13"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 -26;0 0" dur="6.5s" repeatCount="indefinite"/>
+        <rect x="700" y="182" width="360" height="5"/>
+        <rect x="700" y="200" width="360" height="6"/>
+        <rect x="700" y="222" width="360" height="8"/>
+        <rect x="700" y="248" width="360" height="9"/>
+        <rect x="700" y="278" width="360" height="11"/>
+        <rect x="700" y="312" width="360" height="13"/>
+      </g>
+    </g>
+
+    <!-- bokeh -->
+    <g>
+      <circle cx="180" cy="300" r="16" fill="#FFD1E3" opacity="0.20">
+        <animate attributeName="cy" values="300;250;300" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.05;0.2" dur="13s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="330" r="11" fill="#FFC2DA" opacity="0.16">
+        <animate attributeName="cy" values="330;272;330" dur="17s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.16;0.04;0.16" dur="17s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="620" cy="320" r="20" fill="#FFD8C9" opacity="0.14">
+        <animate attributeName="cy" values="320;256;320" dur="21s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1080" cy="316" r="14" fill="#FFD1E3" opacity="0.15">
+        <animate attributeName="cy" values="316;262;316" dur="15s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1210" cy="290" r="9" fill="#FFE7F1" opacity="0.18">
+        <animate attributeName="cy" values="290;240;290" dur="11s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- far mountains -->
+    <path d="M 0 262 L 140 196 L 240 236 L 360 168 L 470 232 L 600 178 L 720 238 L 860 190 L 980 240 L 1120 186 L 1280 244 L 1280 360 L 0 360 Z" fill="#241540" opacity="0.95"/>
+    <path d="M 0 292 L 120 246 L 250 288 L 380 232 L 520 292 L 660 244 L 800 296 L 940 250 L 1080 298 L 1220 254 L 1280 286 L 1280 360 L 0 360 Z" fill="#150C29"/>
+
+    <!-- torii gate with rim light -->
+    <g>
+      <g fill="#0E0820">
+        <path d="M 250 214 Q 320 196 390 214 L 390 226 Q 320 210 250 226 Z"/>
+        <rect x="256" y="238" width="128" height="12" rx="2"/>
+        <rect x="272" y="226" width="13" height="106"/>
+        <rect x="355" y="226" width="13" height="106"/>
+        <rect x="310" y="238" width="20" height="94"/>
+      </g>
+      <g fill="#FFD1E3" opacity="0.22">
+        <rect x="272" y="226" width="3" height="106"/>
+        <rect x="250" y="216" width="3" height="9"/>
+      </g>
+      <rect x="250" y="213" width="140" height="1.6" fill="url(#aRim)"/>
+    </g>
+
+    <!-- water plane + shimmer -->
+    <rect x="0" y="318" width="1280" height="42" fill="url(#aWater)"/>
+    <g stroke="#FFC2DA" stroke-width="1.2" opacity="0.35">
+      <line x1="120" y1="330" x2="300" y2="330"><animate attributeName="opacity" values="0.35;0.08;0.35" dur="4.4s" repeatCount="indefinite"/></line>
+      <line x1="420" y1="340" x2="640" y2="340"><animate attributeName="opacity" values="0.3;0.06;0.3" dur="5.6s" repeatCount="indefinite"/></line>
+      <line x1="760" y1="332" x2="980" y2="332"><animate attributeName="opacity" values="0.32;0.05;0.32" dur="6.4s" repeatCount="indefinite"/></line>
+      <line x1="1020" y1="344" x2="1200" y2="344"><animate attributeName="opacity" values="0.28;0.05;0.28" dur="5.1s" repeatCount="indefinite"/></line>
+    </g>
+
+    <!-- speed lines -->
+    <g stroke="#FFFFFF" stroke-width="1" opacity="0.16">
+      <line x1="0" y1="120" x2="700" y2="196"/>
+      <line x1="0" y1="168" x2="700" y2="208"/>
+      <line x1="0" y1="216" x2="700" y2="222"/>
+    </g>
+
+    <!-- kira sparkles -->
+    <g fill="#FFFFFF">
+      <path d="M 760 96 L 766 110 L 780 116 L 766 122 L 760 136 L 754 122 L 740 116 L 754 110 Z">
+        <animateTransform attributeName="transform" type="scale" values="1;1.35;1" dur="2.8s" additive="sum" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 980 130 L 984 140 L 994 144 L 984 148 L 980 158 L 976 148 L 966 144 L 976 140 Z">
+        <animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 1140 200 L 1144 210 L 1154 214 L 1144 218 L 1140 228 L 1136 218 L 1126 214 L 1136 210 Z">
+        <animate attributeName="opacity" values="0.8;0.15;0.8" dur="4.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- sakura petals -->
+    <g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 7 -9 20 -9 27 0 C 20 9 7 9 0 0 Z"/>
+        <animateMotion dur="15s" repeatCount="indefinite" path="M 1330 -30 Q 900 70 520 210 Q 300 286 40 250"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 6 -8 17 -8 23 0 C 17 8 6 8 0 0 Z"/>
+        <animateMotion dur="19s" begin="1.2s" repeatCount="indefinite" path="M 1240 -40 Q 1000 140 700 250 Q 420 348 120 320"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="7.5s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 5 -7 15 -7 20 0 C 15 7 5 7 0 0 Z"/>
+        <animateMotion dur="13s" begin="0.6s" repeatCount="indefinite" path="M 1160 -20 Q 1060 120 880 200 Q 700 276 520 250"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.4s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 6 -8 18 -8 24 0 C 18 8 6 8 0 0 Z"/>
+        <animateMotion dur="21s" begin="2.4s" repeatCount="indefinite" path="M 1320 60 Q 1040 170 760 260 Q 480 350 200 330"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8.2s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 5 -6 13 -6 18 0 C 13 6 5 6 0 0 Z"/>
+        <animateMotion dur="17s" begin="3.1s" repeatCount="indefinite" path="M 1180 -50 Q 1120 90 980 170 Q 820 258 640 268"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6.6s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 4 -6 12 -6 16 0 C 12 6 4 6 0 0 Z"/>
+        <animateMotion dur="23s" begin="1.8s" repeatCount="indefinite" path="M 1270 120 Q 1000 200 720 268 Q 460 330 240 316"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="9s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 6 -8 16 -8 22 0 C 16 8 6 8 0 0 Z"/>
+        <animateMotion dur="16s" begin="4.2s" repeatCount="indefinite" path="M 1100 -30 Q 940 110 760 196 Q 560 290 380 296"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7.1s" additive="sum" repeatCount="indefinite"/>
+      </g>
+      <g fill="url(#aPetal)"><path d="M 0 0 C 5 -7 14 -7 19 0 C 14 7 5 7 0 0 Z"/>
+        <animateMotion dur="20s" begin="5.4s" repeatCount="indefinite" path="M 1340 20 Q 1080 130 840 220 Q 600 312 360 300"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="8.8s" additive="sum" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- legibility vignette -->
+    <rect width="1280" height="150" fill="url(#aVigTop)"/>
+    <rect width="820" height="360" fill="url(#aVigLeft)"/>
+
+    <!-- title block -->
+    <text x="72" y="112" font-size="22" fill="#FFD1E3" letter-spacing="10" opacity="0.9">バハ</text>
+    <text x="74" y="188" font-size="76" font-weight="700" fill="#0B0518" opacity="0.55" letter-spacing="3">BAHA</text>
+    <text x="72" y="186" font-size="76" font-weight="700" fill="url(#aTitle)" letter-spacing="3">BAHA</text>
+    <rect x="74" y="204" width="300" height="3" rx="1.5" fill="url(#aRim)">
+      <animate attributeName="width" values="60;300;300" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="74" y="236" font-size="17" fill="#FFFFFF" opacity="0.88" letter-spacing="6">PYTHON DEVELOPER</text>
+    <text x="74" y="262" font-size="14" fill="#FFD1E3" opacity="0.75" letter-spacing="5">ANIME EDITION &#183; ALGERIA</text>
+
+    <!-- glass tag -->
+    <rect x="74" y="284" width="196" height="38" rx="19" fill="url(#aPanel)" stroke="#FFFFFF" stroke-opacity="0.28"/>
+    <circle cx="98" cy="303" r="4.5" fill="#FFB7D5">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="112" y="309" font-size="14" fill="#FFFFFF" opacity="0.92">OPEN TO WORK</text>
+  </g>
+</svg>
