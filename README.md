@@ -14,7 +14,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00e5ff,50:ff2975,100:8c1eff&height=200&section=header&text=GRAND%20THEFT%20CODE&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=50&desc=BAHA%20EDITION&descAlignY=68&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00e5ff,50:ff2975,100:8c1eff&height=280&section=header&text=GRAND%20THEFT%20CODE&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=BAHA%20EDITION&descAlignY=62&descSize=18"/>
 </div>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 ---
 
-## 📜 Character Lore
+## 📜 Character Lore <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width="40"/>
 
 <div align="center">
   <img src="assets/player-card.svg" alt="Player card" width="520"/>
@@ -58,7 +58,7 @@
 
 <br/>
 
-## 🎯 Mission Log
+## 🎯 Mission Log <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/coin.gif" width="34"/>
 
 | 🎯 MISSION | 📝 BRIEFING | 🛠️ LOADOUT |
 | :---: | :--- | :--- |
@@ -81,7 +81,7 @@
 
 <br/>
 
-## 📊 Player Stats
+## 📊 Player Stats <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Medal.gif" width="34"/>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bahadjdz&show_icons=true&count_private=true&include_all_commits=true&theme=radical&hide_border=true&rank_icon=github" width="49%"/>
@@ -93,7 +93,10 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bahadjdz&theme=radical&no-frame=true&no-bg=true&row=2&column=4&margin-w=12&margin-h=12"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bahadjdz&theme=radical" width="95%"/>
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bahadjdz&theme=radical" width="46%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bahadjdz&theme=radical" width="46%"/>
 </div>
 
 <br/>
@@ -101,12 +104,16 @@
 ## 🐍 Snake Mini-Game
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/bahadjdz/bahadjdz/output/github-snake.svg" alt="Snake eating contributions" width="90%"/>
+  <table><tr><td align="center">
+    <img src="https://raw.githubusercontent.com/bahadjdz/bahadjdz/output/github-snake.svg" alt="Snake eating contributions" width="520"/>
+  </td><td align="center">
+    <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Mario_Gameplay.gif" alt="Mario gameplay" width="240"/>
+  </td></tr></table>
 </div>
 
 <br/>
 
-## 📈 Mission Timeline
+## 📈 Mission Timeline <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Rocket.gif" width="38"/>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bahadjdz&hide_border=true&area=true&bg_color=0D1117&color=00E5FF&line=FF2975&point=FFFFFF"/>
