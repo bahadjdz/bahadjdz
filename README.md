@@ -55,9 +55,22 @@
 
 | 🚀 Project | 📝 Description | ⚙️ Tech |
 | :---: | :--- | :--- |
-| 🔢 [Quantum-Credit-Master](https://github.com/bahadjdz/Quantum-Credit-Master) | Python-based virtual card generator using the Luhn algorithm for validation, BIN analysis and batch generation. | 🐍 Python |
-| 🤖 [-boottraderrr1](https://github.com/bahadjdz/-boottraderrr1) | Python automation project. | 🐍 Python |
-| 💈 [Barberly](https://github.com/bahadjdz/Barberly) | A stylish barber service website. | 🌐 HTML |
+| 🔢 Quantum-Credit-Master 🔒 | Python-based virtual card generator using the Luhn algorithm for validation, BIN analysis and batch generation. | 🐍 Python |
+| 🤖 boottraderrr1 🔒 | Python automation project. | 🐍 Python |
+| 💈 Barberly 🔒 | A stylish barber service website. | 🌐 HTML |
+| 🎨 [m3e-canvas](https://github.com/bahadjdz/m3e-canvas) | Sketch Material 3 Expressive screens in the browser — contributed AI-draft continuation features (upstream PR #413). | ⚛️ TypeScript |
+
+> 🔒 = private repo — demo available on request.
+
+<br/>
+
+## 🧊 3D Contribution City
+
+<div align="center">
+  <img src="assets/3d-cube.svg" alt="3D cube" width="140"/>
+  <br/>
+  <img src="https://raw.githubusercontent.com/bahadjdz/bahadjdz/main/profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" width="95%"/>
+</div>
 
 <br/>
 
